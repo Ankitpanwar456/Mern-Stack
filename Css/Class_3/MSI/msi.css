@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+
+}
+
+.main_header{
+    width: 90%;
+    height: 25%;
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    /* background-color: red; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    width: 50%;
+    height: 20%;
+    font-size: 20px;
+    color: #696969;
+
+}
+
+.msi{
+    width:98.9px;
+     height:65px;
+    /* margin-left: 40px; */
+}
+
+.profi{
+    width: 20px;
+
+    /* margin-left: 10px; */
+    /* height: 50px; */
+}
+
+.kv-stage{
+    width: 100%;
+
+    /* Sir se puchhna he esa kyun ho rha he */
+    /* position: relative;
+    top: -730px;
+    left: 95px;
+    right: 1px; */
+
+}
+
+.kv-stage-1{
+    position:absolute;
+    width: 100%;
+    top:-18px;
+
+}
+
+.main-section-photo{
+    position: relative;
+}
+
+.black-friday-img{
+    width: 100%;
+    position: absolute;
+    top: -0%;
+}
+
+.intel-logo-1{
+    width: 5%;
+    position: absolute;
+    top: 4.5%;
+    left: 92%;
+    /* right: 3%; */
+}
+
+.dragon-logo-1{
+    width: 100%;
+    position: absolute;
+    top: -2%;
+    /* left: 1%; */
+}
+
+.kv-ribbon-1{
+    width: 100%;
+    position: absolute;
+    top: -1%;
+    /* left: 1%; */
+}
+
+
+
+.main-section-bg{
+    width: 100%;
+    
+
+}
+
+.bg-offer{
+    position: relative;
+}
+
+
+
+.best-offer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #eec572;
+    font-size: bold;
+    position: absolute;
+    top: 1%;
+}
+
+.offer-img{
+    width: 239.6px;
+    height: 8.54px;
+    margin-top: 1.5%;
+}
+
+
+
+.bg-offer-sec{
+    position: relative;
+}
+
+.card-1{
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 4%;
+   
+    
+}
+
+
+
+
+
+.card-1-1{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    
+    
+}
+
+.img-card1{
+    width: 396px;
+}
+
+.title{
+    font-size: 24px;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.dis{
+    font-size: 24px;
+    color: white;
+    
+}
+
+.price{
+    font-size: 45px;
+    color: rgb(235, 169, 82);
+}
+
+.delete-price{
+    font-size: 20px;
+    color: white;
+}
+
+.img-information{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle-box{
+    position: relative;
+    margin-top: 6%;
+}
+
+
+
+.recatngle-symbol{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.recatngle-size{
+    width: 100%;
+}
+
+span{
+    color: red;
+}
+
+.recatngle-text{
+    color: rgb(225, 164, 84);
+    font-size: 22px;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+}
+
+.best-offer-2{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.offer-img-2{
+    width: 239.6px;
+    height: 8.54px;
+    margin-top: 2%;
+}
+
+
+.offer-second{
+    color: #e3ab3c;
+    font-size: 30px;
+}
+
+.big-card{
+    width: 100%;
+    margin-top: 3%;
+    
+
+}
+
+.first-card-1{
+     width: 80%;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* .lucky{
+    width: 20%;
+} */
+
+.aman{
+    width:100%;
+}
+
+
+.first-card-2{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.title-section-img{
+   width: 100%;
+}
+
+.title-section{
+    position: relative;
+}
+
+.title-info{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    color: white;
+    font-size: 20px;
+}
+
+.container-last-card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.last-card{
+  width: 40%;
+  color: white;
+  border: 2px solid rgb(218, 163, 22);
+  /* background-color: aqua; */
+}
+
+.img-and-para-section{
+  display: flex;
+  width: 100%;
+  padding-top: 4%;
+}
+
+.shop
+{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  top: -8%;
+  border-radius: 25px;
+  font-size: 20px;
+  width: 30%;
+}
+
+.disscount-name{
+  font-size: 15px;
+  background-color: #e3ab3c;
+}
+
+.price-tag{
+  position: relative;
+  left: 56%;
+  top: -15%;
+}
+
+.starting{
+  font-size: 18px;
+  color: rgba(215, 55, 55, 0.769);
+}
+
+.price-tag-2{
+   font-size: 30px;
+  color: rgba(215, 55, 55, 0.769);
+}
+
+
+
